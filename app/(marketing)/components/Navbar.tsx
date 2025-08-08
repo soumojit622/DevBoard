@@ -4,7 +4,6 @@ import Link from "next/link";
 import { Github, LogIn, UserPlus } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { Logo } from "@/components/Logo";
-import { ModeToggle } from "@/components/ModeToggle";
 
 export const Navbar = () => {
   return (
@@ -18,7 +17,7 @@ export const Navbar = () => {
         {/* Nav Actions */}
         <div className="flex items-center gap-3">
           {/* Mode Toggle */}
-          <ModeToggle />
+          {/* <ModeToggle /> */}
 
           {/* Login */}
           <Link
